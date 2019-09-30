@@ -14,4 +14,5 @@ describe('GET /', function() {
    it("Mocha Control Test", function (done) {
        (1).should.be.exactly(1).and.be.a.Number();
        done();
-   });
+   })
+})

@@ -1,13 +1,13 @@
 {
- "name": "app-dojo",
- "version": "1.0.0",
- "description": "Dojo Sample Mocha Test Server",
- "scripts": {
-   "start": "node app.js",
-   "mocha": "mocha --reporter spec test.js",
-   "test": "mocha test.js --reporter mocha-junit-reporter --reporter-options mochaFile=test-reports.xml --exit"
- },
- "repository": {
+  "name": "app-dojo",
+  "version": "1.0.0",
+  "description": "Dojo Sample Mocha Test Server",
+  "scripts": {
+    "start": "node app.js",
+    "mocha": "mocha --reporter spec test.js",
+    "test": "mocha test.js --reporter mocha-junit-reporter --reporter-options mochaFile=test-reports.xml --exit"
+  },
+  "repository": {
     "type": "git",
     "url": "git+https://github.com/dojothales/dojoscm.git"
   },
@@ -23,6 +23,12 @@
     "mocha-junit-reporter": "^1.15.0",
     "should": "^13.1.3",
     "supertest": "^3.0.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.3.1",
+    "@typescript-eslint/parser": "^2.3.1",
+    "eslint": "^6.5.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2"
   }
- }
- 
+}
